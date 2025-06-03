@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f0;
+}
+
+.tarjeta {
+  position: relative;
+  width: 320px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+  transform: scale(1.02);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.icono {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #0077cc;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  z-index: 2;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.info {
+  padding: 16px;
+}
+
+.info h3 {
+  margin: 0 0 10px;
+  font-size: 20px;
+}
+
+.info p {
+  margin: 0;
+  color: #333;
+}
